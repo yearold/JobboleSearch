@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伯乐在线文章搜索</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <style type="text/css">
+        /*Class*/
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <br/>
+            <br/>
+            <br/>
+            <div class="row">
+
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+
+                    <div class="row">
+                        <div class="col-md-8 center-block"><h1><a href="http://www.jobbole.com/">伯乐在线</a>所有文章搜索</h1></div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="row">
+                        <form class="form-inline" method="post">
+                            <div class="form-group">
+                                <label for="text">请输入查询条件:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="text" name="page" class="form-control" id="text" placeholder="关键词可用空格或,隔开">
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="button" class="btn btn-default">搜索</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8" id="title_list"></div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+</body>
+<script src="../static/js/jquery-3.3.1.min.js"></script>
+<script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<!--script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script-->
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../static/js/jobbole.js">
+</script>
+</html>
